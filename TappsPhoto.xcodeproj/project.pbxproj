@@ -14,6 +14,7 @@
 		6B7BDF1A24CB1AB3003264EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7BDF1824CB1AB3003264EE /* LaunchScreen.storyboard */; };
 		6B7BDF2224CB1C52003264EE /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BDF2124CB1C52003264EE /* PhotosCollectionViewController.swift */; };
 		6B7BDF2424CB2186003264EE /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BDF2324CB2186003264EE /* PhotoCell.swift */; };
+		6B7BDF2624CB8A87003264EE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BDF2524CB8A87003264EE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6B7BDF1B24CB1AB3003264EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B7BDF2124CB1C52003264EE /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		6B7BDF2324CB2186003264EE /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		6B7BDF2524CB8A87003264EE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				6B7BDF0D24CB1AB1003264EE /* AppDelegate.swift */,
 				6B7BDF0F24CB1AB1003264EE /* SceneDelegate.swift */,
 				6B7BDF2124CB1C52003264EE /* PhotosCollectionViewController.swift */,
+				6B7BDF2524CB8A87003264EE /* DetailViewController.swift */,
 				6B7BDF2324CB2186003264EE /* PhotoCell.swift */,
 				6B7BDF1324CB1AB1003264EE /* Main.storyboard */,
 				6B7BDF1624CB1AB3003264EE /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				6B7BDF2424CB2186003264EE /* PhotoCell.swift in Sources */,
 				6B7BDF2224CB1C52003264EE /* PhotosCollectionViewController.swift in Sources */,
+				6B7BDF2624CB8A87003264EE /* DetailViewController.swift in Sources */,
 				6B7BDF0E24CB1AB1003264EE /* AppDelegate.swift in Sources */,
 				6B7BDF1024CB1AB1003264EE /* SceneDelegate.swift in Sources */,
 			);

@@ -30,7 +30,6 @@ class PhotosCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -51,8 +50,15 @@ class PhotosCollectionViewController: UICollectionViewController {
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "pickPhotoSegue" {
+            let detailCollectionVC = segue.destination as! DetailViewController
+            let cell = sender as! PhotoCell
+            detailCollectionVC.image = cell.randomPhotoImageView.image
+        }
+    }
 }
-
 
 extension PhotosCollectionViewController: UICollectionViewDelegateFlowLayout {
     
@@ -70,7 +76,7 @@ extension PhotosCollectionViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return sectionInserts.left
+        return sectionInserts.left 
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
